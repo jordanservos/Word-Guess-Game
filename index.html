@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Word-Guess-Game</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+
+
+
+    <nav class="navbar navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">
+            <img src="assets/images/Angled Tree Logo.svg" width="30" height="30" class="d-inline-block align-top" alt=""> Word Guess Extravaganza
+        </a>
+    </nav>
+
+    <div class="container text-center">
+
+
+        <div class="jumbotron">
+            <h1 class="display-4">Can you guess these completely super random words??</h1>
+            <p class="lead">Press a letter key to kick things off! </p>
+            <hr class="my-4">
+            <p>HINT: Null :)</p>
+
+        </div>
+
+        <div class="card">
+            <div class="card-header">
+                <h2>The insanely difficult word is...</h2>
+            </div>
+            <div class="card-body">
+                <h5 class="card-title" id="word-blanks">_ _ _ _ _ _ _ _ _ </h5>
+                <br>
+                <p class="card-text">Wrong Guesses:</p>
+                <span id="wrong-guesses"></span>
+
+
+
+            </div>
+        </div>
+
+
+
+    </div>
+
+    <div class="row justify-content-md-center">
+        <div class="col col-lg-3 text-center">
+            <h1>Wins: </h1>
+            <hr>
+            <span id="win-counter">0</span>
+        </div>
+        <div class="col-md-auto text-center ">
+            <h3>Guesses Left: </h3>
+            <hr>
+            </strong> <span id="guesses-left">9</span>
+        </div>
+        <div class="col col-lg-3 text-center">
+            <h1>Losses: </h1>
+            <hr>
+            <span id="loss-counter">0</span>
+        </div>
+
+
+
+
+
+
+    </div>
+
+    <footer id="sticky-footer" class="py-1 bg-dark text-white-50">
+        <div class="container text-center">
+            <small>Copyright &copy; Outdoorful.com</small>
+        </div>
+    </footer>
+
+    <script src="assets/javascript/game.js "></script>
+</body>
+
+</html>
