@@ -4,9 +4,9 @@ In this assignment, I created a computer program called Word Guess Game! This ap
 
 # Instructions
 
-Try your best at being pyschic by guessing the correct letter! Press any key on the keyboard to submit your guess. You have 8 chances to guess the correct letter!
+Try your best at being guessing the correct word in this traditional Hangman like game! Press any key on the keyboard to submit your letter guesses. You have 7 chances to guess the word!
 
-Click on the link to play! - https://jordanservos.github.io/Psychic-Game/
+Click on the link to play! - https://jordanservos.github.io/Word-Guess-Game/.
 
 Built With:
 - HTML5
